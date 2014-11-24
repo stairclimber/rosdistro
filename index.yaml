@@ -1,0 +1,15 @@
+%YAML 1.1
+---
+distributions:
+  indigo:
+    distribution:
+    - indigo/distribution.yaml
+    distribution_cache: http://ros.org/rosdistro/indigo-cache.yaml.gz
+    doc_builds:
+      Deb: indigo/doc-build.yaml
+    release_builds:
+      Deb: indigo/release-build.yaml
+    source_builds:
+      Deb: indigo/source-build.yaml
+type: index
+version: 3
